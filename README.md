@@ -207,6 +207,19 @@ Quando o usuário pergunta, o sistema recupera os 10 documentos mais similares e
 
 **Segurança:** Zero chaves hardcoded. Em produção a IAM Role da task ECS resolve autenticação com Bedrock, Athena e S3 automaticamente.
 
+## 🚀 Próximos passos
+
+- 🔍 **Análise em linguagem natural (LLM Insights)**  
+  Gerar explicações automáticas sobre os resultados retornados pelo SQL  
+  (ex: tendências, padrões e insights relevantes para o negócio)
+
+- ⚡ **Cache de consultas com Redis / Valkey**  
+  Reduzir latência e custo em queries repetidas no Athena
+
+- 🔁 **Pipeline CI/CD**  
+  Automatizar build, testes e deploy da aplicação (Docker → ECR → ECS)
+
+
 ---
 
 ## 📊 Exemplos de perguntas
