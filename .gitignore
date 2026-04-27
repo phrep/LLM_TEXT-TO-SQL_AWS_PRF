@@ -1,0 +1,15 @@
+# Ambiente virtual
+venv/
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Qdrant
+qdrant_data/
+
+# VS Code / IDE
+.vscode/
+.idea/
